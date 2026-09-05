@@ -33,7 +33,7 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
 
 # Configuration
-PORT = int(os.environ.get("PORT", 3000))
+PORT = int(os.environ.get("PORT", 8000))
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 DIST_DIR = Path(__file__).resolve().parent / "dist"
 
