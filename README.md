@@ -17,6 +17,9 @@ python app.py
 
 Opens on http://localhost:8000
 
+Demo Video
+[Watch Demo Video](https://drive.google.com/file/d/1x-Xso18VE8rM_FogKxkCcgmS6MZ0lurY/view?usp=sharing)]
+
 ## Environment
 
 - Set `GEMINI_API_KEY` environment variable with your Gemini API key
