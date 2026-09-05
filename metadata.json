@@ -1,0 +1,6 @@
+{
+  "name": "Fraud Investigation Assistant",
+  "description": "Banking transaction risk analysis report analyzing customer transaction histories against automated risk rules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

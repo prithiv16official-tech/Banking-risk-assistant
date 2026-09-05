@@ -1,0 +1,42 @@
+{
+  "rules": [
+    {
+      "rule_id": "R001",
+      "name": "Unusually Large Transfer",
+      "description": "Single transaction > 2x customer's average",
+      "threshold_multiplier": 2.0,
+      "severity": "high"
+    },
+    {
+      "rule_id": "R002",
+      "name": "New Payee Burst",
+      "description": "3+ transactions to a payee in first 7 days",
+      "min_transactions": 3,
+      "time_window_days": 7,
+      "severity": "medium"
+    },
+    {
+      "rule_id": "R003",
+      "name": "Odd Hours Activity",
+      "description": "Transactions 11 PM - 5 AM break pattern",
+      "hours_start": 23,
+      "hours_end": 5,
+      "severity": "low"
+    },
+    {
+      "rule_id": "R004",
+      "name": "Pattern Break",
+      "description": "Transactions to unusual payee types",
+      "severity": "medium"
+    },
+    {
+      "rule_id": "R005",
+      "name": "Rapid Succession",
+      "description": "Multiple large transfers within 1 hour",
+      "amount_threshold": 10000,
+      "time_window_minutes": 60,
+      "min_count": 2,
+      "severity": "high"
+    }
+  ]
+}

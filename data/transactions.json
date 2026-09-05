@@ -1,0 +1,52 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST001",
+      "customer_name": "Alex Vance",
+      "account_open_date": "2020-01-15",
+      "account_type": "Personal Checking",
+      "transactions": [
+        {"date": "2024-08-01", "amount": 5000, "payee": "Amazon", "channel": "online", "description": "Shopping"},
+        {"date": "2024-08-02", "amount": 25000, "payee": "Salary Deposit", "channel": "bank_transfer", "description": "Monthly salary"},
+        {"date": "2024-08-05", "amount": 50000, "payee": "Crypto Exchange XYZ", "channel": "online", "description": "Investment"},
+        {"date": "2024-08-05", "amount": 45000, "payee": "Crypto Exchange XYZ", "channel": "online", "description": "Investment"},
+        {"date": "2024-08-06", "amount": 40000, "payee": "Crypto Exchange XYZ", "channel": "online", "description": "Investment"},
+        {"date": "2024-08-08", "amount": 8500, "payee": "Groceries", "channel": "debit_card", "description": "Weekly shopping"},
+        {"date": "2024-08-10", "amount": 3000, "payee": "Electric Utility Co", "channel": "online", "description": "Monthly bill"},
+        {"date": "2024-08-15", "amount": 6000, "payee": "Restaurant", "channel": "debit_card", "description": "Dining"}
+      ]
+    },
+    {
+      "customer_id": "CUST002",
+      "customer_name": "Sarah Jenkins",
+      "account_open_date": "2021-06-10",
+      "account_type": "Personal Checking",
+      "transactions": [
+        {"date": "2024-08-01", "amount": 4000, "payee": "Groceries", "channel": "debit_card", "description": "Weekly shopping"},
+        {"date": "2024-08-02", "amount": 20000, "payee": "Salary Deposit", "channel": "bank_transfer", "description": "Monthly salary"},
+        {"date": "2024-08-05", "amount": 5500, "payee": "Coffee Shop", "channel": "debit_card", "description": "Food & beverage"},
+        {"date": "2024-08-08", "amount": 3000, "payee": "Utility Bill", "channel": "online", "description": "Monthly bill"},
+        {"date": "2024-08-12", "amount": 8000, "payee": "Retail Store", "channel": "online", "description": "Shopping"},
+        {"date": "2024-08-15", "amount": 4500, "payee": "Restaurant", "channel": "debit_card", "description": "Dining"},
+        {"date": "2024-08-18", "amount": 3200, "payee": "Movie Theater", "channel": "online", "description": "Entertainment"},
+        {"date": "2024-08-20", "amount": 5000, "payee": "Groceries", "channel": "debit_card", "description": "Weekly shopping"}
+      ]
+    },
+    {
+      "customer_id": "CUST003",
+      "customer_name": "Marcus Brady",
+      "account_open_date": "2019-03-20",
+      "account_type": "Business Checking",
+      "transactions": [
+        {"date": "2024-08-01", "amount": 12000, "payee": "Supplier A", "channel": "bank_transfer", "description": "Business purchase"},
+        {"date": "2024-08-03", "amount": 8500, "payee": "Office Supplies", "channel": "debit_card", "description": "Office expenses"},
+        {"date": "2024-08-05", "amount": 45000, "payee": "Unknown Investment Fund XYZ", "channel": "online", "description": "Investment"},
+        {"date": "2024-08-06", "amount": 38000, "payee": "Unknown Investment Fund XYZ", "channel": "online", "description": "Investment"},
+        {"date": "2024-08-08", "amount": 15000, "payee": "Supplier B", "channel": "bank_transfer", "description": "Business purchase"},
+        {"date": "2024-08-12", "amount": 22000, "payee": "Equipment Rental", "channel": "online", "description": "Business equipment"},
+        {"date": "2024-08-15", "amount": 9500, "payee": "Payroll", "channel": "bank_transfer", "description": "Employee salaries"},
+        {"date": "2024-08-20", "amount": 5000, "payee": "Utilities", "channel": "online", "description": "Monthly utilities"}
+      ]
+    }
+  ]
+}
